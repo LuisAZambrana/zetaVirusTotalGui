@@ -555,7 +555,7 @@ class VirusTotalGUI(QMainWindow):
         title = QLabel("🛡️ ZetaVirusTotalGUI v1 - Análisis Inteligente de Seguridad")
         title.setFont(QFont("Arial", 18, QFont.Bold))
         title.setAlignment(Qt.AlignCenter)
-        title.setStyleSheet("padding: 15px; background-color: #e94560; color: white; border-radius: 10px; margin-bottom: 10px;")
+        title.setStyleSheet("padding: 15px; background-color: #2986CC; color: white; border-radius: 10px; margin-bottom: 10px;")
         main_layout.addWidget(title)
         
         # Barra de estado
@@ -588,7 +588,7 @@ class VirusTotalGUI(QMainWindow):
         # Área de resultados mejorada
         result_label = QLabel("📋 RESULTADOS DEL ANÁLISIS:")
         result_label.setFont(QFont("Arial", 11, QFont.Bold))
-        result_label.setStyleSheet("padding: 8px; margin-top: 10px; color: #e94560;")
+        result_label.setStyleSheet("padding: 8px; margin-top: 10px; color: #ffffff;")
         main_layout.addWidget(result_label)
         
         self.result_text = QTextEdit()
@@ -615,7 +615,7 @@ class VirusTotalGUI(QMainWindow):
         layout = QVBoxLayout()
         
         info_label = QLabel("ℹ️ Los archivos se analizarán automáticamente. Espera unos segundos para los resultados completos.")
-        info_label.setStyleSheet("color: #e94560; padding: 5px; background-color: #16213e; border-radius: 5px;")
+        info_label.setStyleSheet("color: #2986cc; padding: 5px; background-color: #16213e; border-radius: 5px;")
         layout.addWidget(info_label)
         
         file_group = QGroupBox("Seleccionar Archivo")
